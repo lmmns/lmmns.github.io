@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Share Tech Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.fa-icon {
+    fill: currentColor;
+}
+
+.icon-file-pdf { color: #b0bdcf; }
+
+.icon-terminal { color: #b0bdcf; }
+.icon-terminal .fa-primary { color: inherit; }
+.icon-terminal .fa-secondary { color: inherit; }
